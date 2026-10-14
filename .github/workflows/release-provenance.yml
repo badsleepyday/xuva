@@ -154,7 +154,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download the exact hosted artifact
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: xuva-release-artifact
           path: ${{ runner.temp }}/xuva-gated-dist-wsl2
@@ -230,7 +230,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download the exact hosted artifact
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: xuva-release-artifact
           path: ${{ runner.temp }}/xuva-gated-dist-wsl1
@@ -299,7 +299,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download the tested artifact set
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: xuva-release-artifact
           path: dist
